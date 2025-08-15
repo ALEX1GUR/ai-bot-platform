@@ -1,0 +1,18 @@
+﻿:root{ color-scheme: dark; }
+html, body { height:100%; margin:0; background:#0b0f14; color:#e6edf3; font-family:system-ui,Segoe UI,Roboto,Arial; }
+* { box-sizing: border-box; }
+.container { display:flex; height:100vh; }
+.sidebar { width:280px; border-right:1px solid #1e2630; padding:12px; overflow:auto; }
+.main { flex:1; display:flex; flex-direction:column; }
+.toolbar { padding:12px; border-bottom:1px solid #1e2630; display:flex; gap:8px; align-items:center;}
+.chat { flex:1; padding:16px; overflow:auto; }
+.message { background:#0f141b; border:1px solid #1f2a36; padding:12px; border-radius:12px; margin-bottom:12px; }
+.composer { border-top:1px solid #1e2630; padding:12px; }
+.inputRow { display:flex; gap:8px; }
+.inputRow input { flex:1; padding:10px 12px; background:#0f141b; border:1px solid #233042; color:#e6edf3; border-radius:10px; }
+.button { background:#1b6cff; color:#fff; border:none; padding:10px 14px; border-radius:10px; cursor:pointer; }
+.chips { display:flex; gap:6px; flex-wrap: wrap; }
+.chip { background:#1a1f2a; border:1px solid #2c3645; padding:6px 10px; border-radius:999px; }
+.dropzone { border:1px dashed #2b3646; padding:10px; border-radius:12px; text-align:center; }
+.fileRow { display:flex; justify-content:space-between; opacity:0.9; padding:4px 0; font-size:13px;}
+.citation { font-size:12px; opacity:0.8; }
